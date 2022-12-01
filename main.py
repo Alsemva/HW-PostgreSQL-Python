@@ -137,7 +137,6 @@ def change_client(cur, user_id, name=None, surname=None, email=None, phone=None)
     return cur.fetchall()
 
 
-
 def main():
     conn = psycopg2.connect(database="netology_db", user="postgres", password="netologyAL")
 
